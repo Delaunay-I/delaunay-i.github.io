@@ -30,6 +30,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import cpp from "./tech/c++.png";
+import python from "./tech/python.png";
+import ubuntu from './tech/ubuntu.png';
+import linux from './tech/linux.png';
+import tensorflow from './tech/tensorflow.png';
+
 export {
   logo,
   backend,
@@ -59,4 +65,10 @@ export {
   carrent,
   jobit,
   tripguide,
+
+  cpp,
+  python,
+  ubuntu,
+  linux,
+  tensorflow
 };
