@@ -16,9 +16,43 @@ const Contact = () => {
   });
   const [loading, setloading] = useState(false);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
+  };
 
-  const handleSubmit = (e) => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setloading(true);
+
+    emailjs.send(
+      "service_m8ji7p5",
+      "template_g0vh4zl",
+      {
+        from_name: form.name,
+        to_name: "Amirhossein",
+        from_email: form.email,
+        to_email: "mamirhosseinmj@gmail.com",
+        message: form.message,
+      },
+      "1ZbDm0XdpXdYAtFZ2"
+    ).then(() => {
+      setloading(false);
+      alert('Thank you. I will get back to you as soon as possible.');
+
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      }, (error) => {
+        setloading(false)
+
+        console.log(error);
+
+        alert('Something went wron.')
+      })
+    })
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -44,7 +78,6 @@ const Contact = () => {
               placeholder="What's your name?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
             />
-
           </label>
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Email</span>
@@ -56,12 +89,11 @@ const Contact = () => {
               placeholder="What's your email?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
             />
-
           </label>
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
-            rows="7"
+              rows="7"
               name="message"
               value={form.message}
               onChange={handleChange}
@@ -74,7 +106,7 @@ const Contact = () => {
             type="submit"
             className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
           >
-            {loading ? 'Sending...' : 'Send'}
+            {loading ? "Sending..." : "Send"}
           </button>
         </form>
       </motion.div>
