@@ -36,6 +36,10 @@ import ubuntu from './tech/ubuntu.png';
 import linux from './tech/linux.png';
 import tensorflow from './tech/tensorflow.png';
 
+import ansys from './company/ansys.png';
+import ubc from './company/ubc.png';
+
+
 export {
   logo,
   backend,
@@ -70,5 +74,8 @@ export {
   python,
   ubuntu,
   linux,
-  tensorflow
+  tensorflow,
+
+  ansys,
+  ubc,
 };
