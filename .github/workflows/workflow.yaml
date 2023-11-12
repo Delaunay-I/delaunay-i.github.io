@@ -25,3 +25,4 @@ jobs:
         with:
           branch: gh-pages
           folder: dist # The folder the action should deploy.
+          token: ${{ secrets.GITHUB_TOKEN }}
