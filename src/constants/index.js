@@ -29,6 +29,10 @@ import {
     ubuntu,
     linux,
     tensorflow,
+
+    ansys,
+    ubc,
+    
   } from "../assets";
   
   export const navLinks = [
@@ -106,55 +110,48 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "R&D Intern (Software Developer)",
+      company_name: "Ansys",
+      icon: ansys,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2023 - Nov 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Optimized and implemented master’s thesis algorithm and ML model in Ansys, reducing runtime by 10%.",
+        "Leveraged pyfluent and UDFs for efficient integration of Python algorithms into ANSYS.",
+        "Implemented code using Python on both Windows and Windows Subsystem for Linux (WSL) platforms.",
+        "Developed modular and maintainable algorithm classes using OOP concepts in Python.",
+        "Ensured robust code quality through unit testing and continuous integration with Jenkins.",
+        "Collaborated with Ansys developers on complex problem-solving."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Graduate Research Assistant",
+      company_name: "University of British Columbia",
+      icon: ubc,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2021 - Oct 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a data-driven model using PCA, DMD, and ML, achieving instant convergence for linear problems and a 50% speedup for non-linear problems.",
+        "Implemented the algorithm in C++ and Python, exclusively utilizing Linux Ubuntu systems.",
+        "Ensured code robustness through unit tests and Jenkins CI.",
+        "Collaborated with a team of developers to integrate code into the main software branch.",
+        "Conducted code reviews and resolved merge conflicts using Git to ensure seamless feature integration",
+        "Trained an XGBoost model for algorithm automation, achieving 97% accuracy",
+        "Mitigated class imbalance using oversampling, undersampling, and ensemble methods",
+        "Optimized models via hyper-parameter tuning and feature engineering, achieving a precision of 93.7%."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Teaching Assistant",
+      company_name: "University of British Columbia",
+      icon: ubc,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Sep 2022 - Dec 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conducted engaging tutorials for 200+ students in Fluid Mechanics, Linear Algebra, and Numerical Algorithms.",
+        "Guided students through assignments involving MATLAB and Python programming, as well as visualizations.",
+        "Offered personalized assistance in Numerical Algorithms, Data Visualization, and Linear Algebra tasks.",
+        "Fostered a supportive learning environment by addressing individual student needs and collaborating with faculty to enhance course materials.",
       ],
     },
   ];
