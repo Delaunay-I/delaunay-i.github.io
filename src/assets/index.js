@@ -11,7 +11,7 @@ import twitter from './twitter.svg';
 import car from './car.svg';
 import threads from './threads.svg';
 import arrow from './arrow.svg';
-import contact from './contact.svg';
+import contact from './email.png';
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
