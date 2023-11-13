@@ -32,6 +32,14 @@ import {
 
     ansys,
     ubc,
+
+    github,
+    linkedin,
+    twitter,
+    car,
+    threads,
+    arrow,
+    contact,
     
   } from "../assets";
   
@@ -248,6 +256,24 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
+
+  export const socialLinks = [
+    {
+        name: 'Contact',
+        iconUrl: contact,
+        link: '/contact',
+    },
+    {
+        name: 'GitHub',
+        iconUrl: github,
+        link: 'https://github.com/YourGitHubUsername',
+    },
+    {
+        name: 'LinkedIn',
+        iconUrl: linkedin,
+        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+    }
+];
   
   export { services, technologies, experiences, testimonials, projects };
   
