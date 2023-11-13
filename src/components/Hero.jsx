@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import { HeroModel } from "./canvas";
+
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
-        <div>
+        <div className="z-[2]">
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915eff]">Amirhossein</span>
           </h1>
@@ -24,8 +25,10 @@ const Hero = () => {
           </p>
         </div>
       </div>
-
-      <ComputersCanvas />
+      
+      <HeroModel 
+        className="absolute z-[-2]" 
+      />
       
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
