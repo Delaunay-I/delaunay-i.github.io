@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { HeroModel } from "./canvas";
+import { ComputersCanvas } from "./canvas";
 
 
 const Hero = () => {
@@ -15,7 +15,7 @@ const Hero = () => {
         </div>
 
         <div className="z-[2]">
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <h1 className={`${styles.heroHeadText} lg:text-[70px] sm:text-[40px] text-white`}>
             Hi, I'm <span className="text-[#915eff]">Amirhossein</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
@@ -26,9 +26,7 @@ const Hero = () => {
         </div>
       </div>
       
-      <HeroModel 
-        className="absolute z-[-2]" 
-      />
+      <ComputersCanvas />
       
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
