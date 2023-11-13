@@ -7,6 +7,7 @@ import {
   Feedbacks,
   Hero,
   Navbar,
+  Footer,
   Tech,
   Works,
   StarsCanvas,
@@ -29,6 +30,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <Footer />
       </div>
     </BrowserRouter>
   );
