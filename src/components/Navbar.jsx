@@ -22,7 +22,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={alogo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={alogo} alt="logo" className="w-9 h-9 object-contain" />          
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Amirhossein &nbsp;
             <span className="sm:blcok">Mirshahi</span>
