@@ -4,6 +4,8 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import github_black from "./github_black.png";
+
 import menu from "./menu.svg";
 import close from "./close.svg";
 import linkedin from './linkedin.svg';
@@ -41,6 +43,12 @@ import python from "./tech/python.png";
 import ubuntu from './tech/ubuntu.png';
 import linux from './tech/linux.png';
 import tensorflow from './tech/tensorflow.png';
+import julia from './tech/julia.png';
+import sklearn from './tech/sklearn.png';
+import matlab from './tech/matlab.png';
+import jenkins from './tech/jenkins.png';
+import makefile from './tech/makefile.png';
+
 
 import ansys from './company/ansys.png';
 import ubc from './company/ubc.png';
@@ -53,6 +61,7 @@ export {
   mobile,
   web,
   github,
+  github_black,
   menu,
   close,
   linkedin,
@@ -88,6 +97,11 @@ export {
   ubuntu,
   linux,
   tensorflow,
+  julia,
+  sklearn,
+  matlab,
+  jenkins,
+  makefile,
 
   ansys,
   ubc,

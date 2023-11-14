@@ -29,11 +29,17 @@ import {
     ubuntu,
     linux,
     tensorflow,
+    julia,
+    sklearn,
+    matlab,
+    jenkins,
+    makefile,
 
     ansys,
     ubc,
 
     github,
+    github_black,
     linkedin,
     twitter,
     car,
@@ -87,12 +93,24 @@ import {
       icon: python,
     },
     {
-      name: "Tensorflow",
-      icon: tensorflow,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
+    },
+    {
+      name: "git",
+      icon: git,
+    },
+    {
+      name: "GitHub",
+      icon: github_black,
+    },
+    {
+      name: "docker",
+      icon: docker,
+    },
+    {
+      name: "Tensorflow",
+      icon: tensorflow,
     },
     {
       name: "React JS",
@@ -103,16 +121,28 @@ import {
       icon: tailwind,
     },
     {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
-    {
       name: "Linux",
       icon: linux,
+    },
+    {
+      name: "Jenkins",
+      icon: jenkins,
+    },
+    {
+      name: "MakeFile",
+      icon: makefile,
+    },
+    {
+      name: "Matlab",
+      icon: matlab,
+    },
+    {
+      name: "Sklearn",
+      icon: sklearn,
+    },
+    {
+      name: "Julia",
+      icon: julia,
     },
   ];
   
