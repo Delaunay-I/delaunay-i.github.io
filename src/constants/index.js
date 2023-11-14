@@ -96,10 +96,10 @@ import {
       name: "Tensorflow",
       icon: tensorflow,
     },
-    {
-      name: "Sklearn",
-      icon: sklearn,
-    },
+    // {
+    //   name: "Sklearn",
+    //   icon: sklearn,
+    // },
     {
       name: "JavaScript",
       icon: javascript,
@@ -112,14 +112,14 @@ import {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "HTML",
-      icon: html,
-    },
-    {
-      name: "css",
-      icon: css,
-    },
+    // {
+    //   name: "HTML",
+    //   icon: html,
+    // },
+    // {
+    //   name: "css",
+    //   icon: css,
+    // },
     {
       name: "Matlab",
       icon: matlab,
@@ -132,10 +132,10 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "GitHub",
-      icon: github_black,
-    },
+    // {
+    //   name: "GitHub",
+    //   icon: github_black,
+    // },
     {
       name: "docker",
       icon: docker,
