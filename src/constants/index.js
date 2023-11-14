@@ -19,7 +19,7 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
+    imagecapgen_tf,
     jobit,
     tripguide,
     threejs,
@@ -93,8 +93,40 @@ import {
       icon: python,
     },
     {
+      name: "Tensorflow",
+      icon: tensorflow,
+    },
+    {
+      name: "Sklearn",
+      icon: sklearn,
+    },
+    {
       name: "JavaScript",
       icon: javascript,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "HTML",
+      icon: html,
+    },
+    {
+      name: "css",
+      icon: css,
+    },
+    {
+      name: "Matlab",
+      icon: matlab,
+    },
+    {
+      name: "Julia",
+      icon: julia,
     },
     {
       name: "git",
@@ -109,41 +141,18 @@ import {
       icon: docker,
     },
     {
-      name: "Tensorflow",
-      icon: tensorflow,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Jenkins",
+      icon: jenkins,
     },
     {
       name: "Linux",
       icon: linux,
     },
     {
-      name: "Jenkins",
-      icon: jenkins,
-    },
-    {
       name: "MakeFile",
       icon: makefile,
     },
-    {
-      name: "Matlab",
-      icon: matlab,
-    },
-    {
-      name: "Sklearn",
-      icon: sklearn,
-    },
-    {
-      name: "Julia",
-      icon: julia,
-    },
+
   ];
   
   const experiences = [
@@ -208,67 +217,25 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Image Caption Generator",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A web-based image caption generator with TensorFlow, enabling users to swiftly generate descriptive captions by uploading images. Docker containerized and seamlessly deployed via GitHub Actions.",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "TensorFlow",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Docker",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: imagecapgen_tf,
+      source_code_link: "https://github.com/Delaunay-I/image_cap_generator",
     },
   ];
 
