@@ -12,6 +12,7 @@ const FeedbackCard = ({
   designation,
   company,
   image,
+  link,
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
@@ -19,7 +20,9 @@ const FeedbackCard = ({
   >
     <p className="text-white font-black text-[48px]">"</p>
     <div className="mt-1">
+    <a href={link} target="_blank" rel="noopener noreferrer">
       <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
+      </a>
       <div className="mt-7 flex justify-between items-center gap-1">
         <div className="flex-1 flex flex-col">
           <p className="text-white font-medium text-[16px]">
