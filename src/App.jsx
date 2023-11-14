@@ -1,5 +1,4 @@
 import { BrowserRouter } from "react-router-dom";
-import { useEffect } from "react";
 
 import {
   About,
@@ -14,15 +13,7 @@ import {
   StarsCanvas,
 } from "./components";
 
-import ReactGA from "react-ga";
-
-const TRACKING_ID = "G-W3RN58W6WP";
-ReactGA.initialize(TRACKING_ID);
-
 const App = () => {
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
 
   return (
     <BrowserRouter>
