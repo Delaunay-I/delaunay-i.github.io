@@ -43,12 +43,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        A scientific computing and CFD expert with extensive experience and
-        skills in software development and machine learning. Experienced in
-        developing and applying numerical methods and applied mathematics to
-        complex CFD problems. Looking for a challenging and rewarding position
-        in CFD R&D, Scientific Computing, Verification and Application Engineer
-        roles.
+        Scientific computing and data scientist skilled in software development and machine learning,
+         specializing in numerical methods. Currently exploring React and front-end development,
+          rapidly advancing in learning, and eager to contribute to scientific software development roles.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
