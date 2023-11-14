@@ -20,8 +20,7 @@ import {
     tesla,
     shopify,
     imagecapgen_tf,
-    jobit,
-    tripguide,
+    dmd_acc,
     threejs,
 
     cpp,
@@ -46,6 +45,7 @@ import {
     threads,
     arrow,
     contact,
+    docs,
     
   } from "../assets";
   
@@ -236,6 +236,28 @@ import {
       ],
       image: imagecapgen_tf,
       source_code_link: "https://github.com/Delaunay-I/image_cap_generator",
+    },
+    {
+      name: "Convergence Acceleration Algorithm",
+      description:
+        "Data-driven algorithm accelerates simulation solver runtime by generating over-relaxation updates from user-input solution data. Fully autonomous, no solver information required.",
+      tags: [
+        {
+          name: "C++",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ML",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dmd_acc,
+      source_code_link: "https://github.com/Delaunay-I/DMD_over-relaxation",
+      source_document_link: "http://hdl.handle.net/2429/86199",
     },
   ];
 

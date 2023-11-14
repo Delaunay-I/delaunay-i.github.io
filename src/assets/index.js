@@ -14,6 +14,8 @@ import car from './car.svg';
 import threads from './threads.svg';
 import arrow from './arrow.svg';
 import contact from './email.png';
+import docs from './docs.png';
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -35,8 +37,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import imagecapgen_tf from "./imagecapgen_tf.jpeg";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import dmd_acc from "./dmd_acc.png";
 
 import cpp from "./tech/c++.png";
 import python from "./tech/python.png";
@@ -70,6 +71,7 @@ export {
   threads,
   arrow,
   contact,
+  docs,
 
   css,
   docker,
@@ -89,8 +91,7 @@ export {
   starbucks,
   tesla,
   imagecapgen_tf,
-  jobit,
-  tripguide,
+  dmd_acc,
 
   cpp,
   python,
