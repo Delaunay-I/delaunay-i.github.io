@@ -43,9 +43,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Scientific computing and data scientist skilled in software development and machine learning,
-         specializing in numerical methods. Currently exploring React and front-end development,
-          rapidly advancing in learning, and eager to contribute to scientific software development roles.
+        As a scientific computing expert, I bring proficiency in software
+        development and machine learning. Currently delving into React and
+        front-end development, I'm enthusiastic about contributing to roles in
+        software development and data science.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
