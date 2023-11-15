@@ -1,4 +1,5 @@
-import { BrowserRouter } from "react-router-dom";
+import { useEffect } from 'react';
+import { BrowserRouter, useLocation } from "react-router-dom";
 
 import {
   About,
@@ -14,6 +15,12 @@ import {
 } from "./components";
 
 const App = () => {
+  const location = useLocation();
+  useEffect(() => {
+    window.gtag('config', 'YOUR_TRACKING_ID', {
+      page_path: location.pathname, // Specify the current path
+    });
+  }, [location]);
 
   return (
     <BrowserRouter>
