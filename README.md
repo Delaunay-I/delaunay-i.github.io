@@ -1,5 +1,7 @@
 # Interactive 3D Portfolio
 
+Live Website: [https://delaunay-i.github.io/3d_portfolio/](https://delaunay-i.github.io/3d_portfolio/)
+
 Welcome to my interactive 3D portfolio! This project is a showcase of my skills in front-end development, featuring an interactive 3D portfolio created with cutting-edge web technologies such as React, Three.js, and Tailwind CSS.
 
 ![Portfolio Preview](pics/3dportfolio_pic.png)
@@ -34,8 +36,6 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-Your Name - your@email.com
-
-Project Link: [https://github.com/Delaunay-I/3d_portfolio.git](https://github.com/Delaunay-I/3d_portfolio.git)
+Your Name - amirmsh@student.ubc.ca
 
 Feel free to explore the portfolio and reach out with any suggestions or feedback!
