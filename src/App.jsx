@@ -14,16 +14,23 @@ import {
   StarsCanvas,
 } from "./components";
 
-const App = () => {
+const PageViewLogger = () => {
   const location = useLocation();
+
   useEffect(() => {
-    window.gtag('config', 'YOUR_TRACKING_ID', {
+    window.gtag('config', 'YG-W3RN58W6WP', {
       page_path: location.pathname, // Specify the current path
     });
   }, [location]);
 
+  return null; // This component doesn't render anything
+};
+
+const App = () => {
+
   return (
     <BrowserRouter>
+    <PageViewLogger />
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
