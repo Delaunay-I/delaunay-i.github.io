@@ -1,6 +1,6 @@
 # Interactive 3D Portfolio
 
-Live Website: [https://delaunay-i.github.io](https://amirmsh.com)
+Live Website: [www.amirmsh.com](https://delaunay-i.github.io)
 
 Welcome to my interactive 3D portfolio! This project is a showcase of my skills in front-end development, featuring an interactive 3D portfolio created with cutting-edge web technologies such as React, Three.js, and Tailwind CSS.
 
