@@ -1,6 +1,6 @@
 # Interactive 3D Portfolio
 
-Live Website: [https://delaunay-i.github.io/3d_portfolio/](https://delaunay-i.github.io/3d_portfolio/)
+Live Website: [https://delaunay-i.github.io](https://amirmsh.com)
 
 Welcome to my interactive 3D portfolio! This project is a showcase of my skills in front-end development, featuring an interactive 3D portfolio created with cutting-edge web technologies such as React, Three.js, and Tailwind CSS.
 
@@ -11,14 +11,6 @@ Welcome to my interactive 3D portfolio! This project is a showcase of my skills 
 - **Immersive 3D Graphics:** The portfolio is built with Three.js, providing an engaging and visually appealing experience.
 - **Responsive Design:** Tailwind CSS ensures a responsive layout that looks great on various devices.
 - **Automated Deployment:** The project uses GitHub Actions workflows to automate the deployment process to GitHub Pages.
-
-## Getting Started
-
-To get a local copy up and running, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/Delaunay-I/3d_portfolio.git`
-2. Install dependencies: `npm install`
-3. Start the local server: `npm start`
 
 ## Contributing
 
