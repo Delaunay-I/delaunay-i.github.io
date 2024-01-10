@@ -20,6 +20,7 @@ import {
     tesla,
     shopify,
     imagecapgen_tf,
+    memories_project,
     dmd_acc,
     threejs,
 
@@ -236,6 +237,27 @@ import {
       ],
       image: imagecapgen_tf,
       source_code_link: "https://github.com/Delaunay-I/image_cap_generator",
+    },
+    {
+      name: "MERN Social App",
+      description:
+        "A secure social media application enabling users to sign up, log in, create posts, and engage with others' content. Using the latest of Tailwind CSS and Redux Toolkit libraries.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MERN",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: memories_project,
+      source_code_link: "https://github.com/Delaunay-I/memories_project",
     },
     {
       name: "Convergence Acceleration Algorithm",

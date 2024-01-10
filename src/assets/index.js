@@ -37,6 +37,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import imagecapgen_tf from "./imagecapgen_tf.jpeg";
+import memories_project from "./memories_project.png";
 import dmd_acc from "./dmd_acc.png";
 
 import cpp from "./tech/c++.png";
@@ -91,6 +92,7 @@ export {
   starbucks,
   tesla,
   imagecapgen_tf,
+  memories_project,
   dmd_acc,
 
   cpp,
