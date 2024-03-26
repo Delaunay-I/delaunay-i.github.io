@@ -1,5 +1,11 @@
-import { useEffect } from 'react';
-import { BrowserRouter, useLocation  } from "react-router-dom";
+import { useEffect } from "react";
+import {
+  BrowserRouter,
+  useLocation,
+  Route,
+  Link,
+  Routes,
+} from "react-router-dom";
 
 import {
   About,
@@ -13,13 +19,13 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
-
+import Qrcode from "./components/projects/01/Qrcode";
 
 const PageViewLogger = () => {
   const location = useLocation();
 
   useEffect(() => {
-    window.gtag('config', 'YG-W3RN58W6WP', {
+    window.gtag("config", "YG-W3RN58W6WP", {
       page_path: location.pathname, // Specify the current path
     });
   }, [location]);
@@ -27,12 +33,10 @@ const PageViewLogger = () => {
   return null; // This component doesn't render anything
 };
 
-
 const App = () => {
-
   return (
     <>
-    <PageViewLogger />
+      <PageViewLogger />
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
@@ -50,7 +54,6 @@ const App = () => {
         <Footer />
       </div>
     </>
-    
   );
 };
 
