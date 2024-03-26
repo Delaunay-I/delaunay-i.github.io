@@ -1,10 +1,11 @@
+import logo from "../../../../public/projects/01/image-qr-code.png";
 
 const Qrcode = () => {
   return (
     <div className="mt-32 flex justify-center">
       <div className="flex w-[300px] flex-col items-center gap-5 rounded-2xl bg-neutral-100 px-3 pb-8 pt-3">
         <img
-          src="/public/projects/01/image-qr-code.png"
+          src={logo}
           alt="qr code image"
           className="rounded-xl w-[280px] h-[280px]"
         />
