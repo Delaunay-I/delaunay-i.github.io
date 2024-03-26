@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { BrowserRouter, useLocation } from "react-router-dom";
+import { BrowserRouter, useLocation  } from "react-router-dom";
 
 import {
   About,
@@ -14,6 +14,7 @@ import {
   StarsCanvas,
 } from "./components";
 
+
 const PageViewLogger = () => {
   const location = useLocation();
 
@@ -26,10 +27,11 @@ const PageViewLogger = () => {
   return null; // This component doesn't render anything
 };
 
+
 const App = () => {
 
   return (
-    <BrowserRouter>
+    <>
     <PageViewLogger />
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
@@ -47,7 +49,8 @@ const App = () => {
         </div>
         <Footer />
       </div>
-    </BrowserRouter>
+    </>
+    
   );
 };
 
