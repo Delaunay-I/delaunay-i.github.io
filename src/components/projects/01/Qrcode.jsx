@@ -1,4 +1,4 @@
-import logo from "../../../../public/projects/01/image-qr-code.png";
+import logo from "/projects/01/image-qr-code.png";
 
 const Qrcode = () => {
   return (
