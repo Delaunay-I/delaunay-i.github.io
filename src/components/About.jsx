@@ -8,10 +8,10 @@ import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
-    <Tilt className="xs:w-[250px] w-full">
+    <Tilt className="w-full xs:w-[250px]">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-        className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+        className="green-pink-gradient w-full rounded-[20px] p-[1px] shadow-card"
       >
         <div
           options={{
@@ -19,10 +19,10 @@ const ServiceCard = ({ index, title, icon }) => {
             scale: 1,
             speed: 450,
           }}
-          className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+          className="flex min-h-[280px] flex-col items-center justify-evenly rounded-[20px] bg-tertiary px-12 py-5"
         >
-          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
-          <h3 className="text-white text-[20px] font-bold text-center">
+          <img src={icon} alt={title} className="h-16 w-16 object-contain" />
+          <h3 className="text-center text-[20px] font-bold text-white">
             {title}
           </h3>
         </div>
@@ -41,12 +41,17 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 max-w-3xl text-justify text-[17px] leading-[30px] text-secondary"
       >
-        As a scientific computing expert, I bring proficiency in software
-        development and machine learning. Currently delving into React and
-        front-end development, I'm enthusiastic about contributing to roles in
-        software development and data science.
+        As a software developer with a passion for both front-end and back-end
+        technologies, I specialize in creating full-stack solutions. My
+        expertise spans across
+        <span className="font-bold">
+        &nbsp;C++, Python, JavaScript, React, and Node.js
+        </span>
+        , with a keen interest in machine learning and
+        <span className="font-bold">&nbsp;Gen AI</span>. I’m on the lookout for roles that challenge me to
+        push the boundaries of software development and innovation.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

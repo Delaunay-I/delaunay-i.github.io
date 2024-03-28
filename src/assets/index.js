@@ -6,6 +6,8 @@ import web from "./web.png";
 import github from "./github.png";
 import github_black from "./github_black.png";
 
+import webdev from "./ai-webdev.png";
+
 import menu from "./menu.svg";
 import close from "./close.svg";
 import linkedin from './linkedin.svg';
@@ -50,6 +52,7 @@ import sklearn from './tech/sklearn.png';
 import matlab from './tech/matlab.png';
 import jenkins from './tech/jenkins.png';
 import makefile from './tech/makefile.png';
+import nextjs from './tech/next-js.png';
 
 
 import ansys from './company/ansys.png';
@@ -73,6 +76,8 @@ export {
   arrow,
   contact,
   docs,
+
+  webdev,
 
   css,
   docker,
@@ -105,6 +110,7 @@ export {
   matlab,
   jenkins,
   makefile,
+  nextjs,
 
   ansys,
   ubc,

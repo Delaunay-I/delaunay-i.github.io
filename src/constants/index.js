@@ -23,6 +23,7 @@ import {
     memories_project,
     dmd_acc,
     threejs,
+    webdev,
 
     cpp,
     python,
@@ -47,6 +48,7 @@ import {
     arrow,
     contact,
     docs,
+    nextjs,
     
   } from "../assets";
   
@@ -67,19 +69,19 @@ import {
   
   const services = [
     {
-      title: "Scientific Software Developer",
-      icon: creator,
+      title: "Full-Stack Developer",
+      icon: web,
     },
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Software Developer",
+      icon: creator,
     },
     {
       title: "Data Scientist",
       icon: web,
     },
     {
-      title: "Machine Learning Engineer",
+      title: "DevOps/Test Engineer",
       icon: mobile,
     },
   ];
@@ -94,6 +96,30 @@ import {
       icon: python,
     },
     {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "css",
+      icon: css,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "React.js",
+      icon: reactjs,
+    },
+    {
+      name: "Next.js",
+      icon: nextjs,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
       name: "Tensorflow",
       icon: tensorflow,
     },
@@ -101,34 +127,20 @@ import {
     //   name: "Sklearn",
     //   icon: sklearn,
     // },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
+ 
     // {
     //   name: "HTML",
     //   icon: html,
     // },
+    
     // {
-    //   name: "css",
-    //   icon: css,
+    //   name: "Matlab",
+    //   icon: matlab,
     // },
-    {
-      name: "Matlab",
-      icon: matlab,
-    },
-    {
-      name: "Julia",
-      icon: julia,
-    },
+    // {
+    //   name: "Julia",
+    //   icon: julia,
+    // },
     {
       name: "git",
       icon: git,
@@ -149,10 +161,10 @@ import {
       name: "Linux",
       icon: linux,
     },
-    {
-      name: "MakeFile",
-      icon: makefile,
-    },
+    // {
+    //   name: "MakeFile",
+    //   icon: makefile,
+    // },
 
   ];
   
