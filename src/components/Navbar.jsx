@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { Menu, MenuItem, MenuButton, SubMenu } from '@szhsin/react-menu';
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
@@ -66,9 +67,10 @@ const Navbar = () => {
                     setActive(link.title);
                   }}
                 >
-                  <a href={`#${link.id}`}>{link.title}</a>
+                  <a href={`3${link.id}`}>{link.title}</a>
                 </li>
               ))}
+              <li>salam</li>
             </ul>
           </div>
         </div>
