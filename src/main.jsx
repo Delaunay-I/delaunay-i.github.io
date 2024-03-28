@@ -22,7 +22,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="01" element={<Qrcode />} />
+        <Route path="/01" element={<Qrcode />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
