@@ -1,0 +1,31 @@
+.text-primary {
+  color: hsl(217, 12%, 63%);
+}
+
+.bg-selected {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.text-secondary {
+  color: hsl(25, 97%, 53%);
+}
+
+.bg-button {
+  background-color: hsl(25, 97%, 53%);
+}
+.bg-button:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+.bg-card {
+  background-color: hsl(214, 20%, 14%);
+}
+
+.bg-secondary {
+  background-color: hsl(213, 19%, 18%);
+}
+button.bg-secondary:hover, .bg-selected:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
