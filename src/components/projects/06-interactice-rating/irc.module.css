@@ -1,31 +1,31 @@
-.text-primary {
+.text_primary {
   color: hsl(217, 12%, 63%);
 }
 
-.bg-selected {
+.bg_selected {
   background-color: hsl(217, 12%, 63%);
 }
 
-.text-secondary {
+.text_secondary {
   color: hsl(25, 97%, 53%);
 }
 
-.bg-button {
+.bg_button {
   background-color: hsl(25, 97%, 53%);
 }
-.bg-button:hover {
+.bg_button:hover {
   background-color: #fff;
   color: hsl(25, 97%, 53%);
 }
 
-.bg-card {
+.bg_card {
   background-color: hsl(214, 20%, 14%);
 }
 
-.bg-secondary {
+.bg_secondary {
   background-color: hsl(213, 19%, 18%);
 }
-button.bg-secondary:hover, .bg-selected:hover {
+button.bg_secondary:hover, .bg_selected:hover {
   background-color: hsl(25, 97%, 53%);
   color: white;
 }

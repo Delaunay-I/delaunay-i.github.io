@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./styles.css";
+
 import RateInput from "./RateInput";
 import Submission from "./Submission";
 
@@ -9,8 +9,15 @@ const InteractiveRating = () => {
 
   return (
     <div className="flex h-screen items-center justify-center">
-        {!submit ? <RateInput rating={rating} setRating={setRating} setSubmit={setSubmit}/> : <Submission rating={rating}/>}
-      
+      {!submit ? (
+        <RateInput
+          rating={rating}
+          setRating={setRating}
+          setSubmit={setSubmit}
+        />
+      ) : (
+        <Submission rating={rating} />
+      )}
     </div>
   );
 };
