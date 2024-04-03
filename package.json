@@ -13,20 +13,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emailjs/browser": "^3.11.0",
+    "@emailjs/browser": "^3.12.1",
     "@react-spring/three": "^9.7.3",
-    "@react-three/drei": "^9.88.12",
-    "@react-three/fiber": "^8.15.5",
-    "framer-motion": "^10.16.4",
+    "@react-three/drei": "^9.104.1",
+    "@react-three/fiber": "^8.16.1",
+    "framer-motion": "^11.0.24",
     "maath": "^0.10.4",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-ga4": "^2.1.0",
-    "react-router-dom": "^6.17.0",
+    "react-router-dom": "^6.22.3",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.158.0"
+    "three": "^0.163.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
@@ -42,6 +42,6 @@
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.12",
     "tailwindcss": "^3.3.4",
-    "vite": "^4.4.5"
+    "vite": "^5.2.7"
   }
 }
