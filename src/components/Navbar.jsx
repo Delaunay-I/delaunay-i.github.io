@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Menu, MenuItem, MenuButton, SubMenu } from '@szhsin/react-menu';
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { menu, close } from "../assets";
 import alogo from "../assets/alogo.svg";
 
 const Navbar = () => {
@@ -70,7 +69,6 @@ const Navbar = () => {
                   <a href={`3${link.id}`}>{link.title}</a>
                 </li>
               ))}
-              <li>salam</li>
             </ul>
           </div>
         </div>

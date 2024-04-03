@@ -10,7 +10,7 @@ const Stars = (props) => {
     random.inSphere(new Float32Array(5001), { radius: 1.2 })
   );
   
-  useFrame((satate, delta) => {
+  useFrame((state, delta) => {
     ref.current.rotation.x -= delta / 10;
     ref.current.rotation.y -= delta / 15;
   });
