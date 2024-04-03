@@ -1,10 +1,6 @@
 import { useEffect } from "react";
 import {
-  BrowserRouter,
   useLocation,
-  Route,
-  Link,
-  Routes,
 } from "react-router-dom";
 
 import {
@@ -19,7 +15,6 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
-import Qrcode from "./components/projects/01/Qrcode";
 
 const PageViewLogger = () => {
   const location = useLocation();
