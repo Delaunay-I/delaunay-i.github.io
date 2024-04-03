@@ -1,7 +1,7 @@
-import { useEffect } from "react";
-import {
-  useLocation,
-} from "react-router-dom";
+// import { useEffect } from "react";
+// import {
+//   useLocation,
+// } from "react-router-dom";
 
 import {
   About,
@@ -16,22 +16,22 @@ import {
   StarsCanvas,
 } from "./components";
 
-const PageViewLogger = () => {
-  const location = useLocation();
+// const PageViewLogger = () => {
+//   const location = useLocation();
 
-  useEffect(() => {
-    window.gtag("config", "YG-W3RN58W6WP", {
-      page_path: location.pathname, // Specify the current path
-    });
-  }, [location]);
+//   useEffect(() => {
+//     window.gtag("config", "YG-W3RN58W6WP", {
+//       page_path: location.pathname, // Specify the current path
+//     });
+//   }, [location]);
 
-  return null; // This component doesn't render anything
-};
+//   return null; // This component doesn't render anything
+// };
 
 const App = () => {
   return (
     <>
-      <PageViewLogger />
+      {/* <PageViewLogger /> */}
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />

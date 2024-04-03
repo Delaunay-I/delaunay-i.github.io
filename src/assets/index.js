@@ -38,11 +38,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import imagecapgen_tf from "./imagecapgen_tf.jpeg";
-import memories_project from "./memories_project.png";
+import imagecapgen_tf from "./imagecapgen_tf.webp";
+import memories_project from "./memories_project.webp";
 import dmd_acc from "./dmd_acc.png";
 
-import cpp from "./tech/c++.png";
+import cpp from "./tech/cpp.svg";
 import python from "./tech/python.png";
 import ubuntu from './tech/ubuntu.png';
 import linux from './tech/linux.png';
@@ -57,6 +57,8 @@ import nextjs from './tech/next-js.png';
 
 import ansys from './company/ansys.png';
 import ubc from './company/ubc.png';
+
+import mponga from './testimonials/m_ponga.webp';
 
 
 export {
@@ -114,4 +116,6 @@ export {
 
   ansys,
   ubc,
+
+  mponga,
 };

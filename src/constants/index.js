@@ -39,6 +39,8 @@ import {
     ansys,
     ubc,
 
+    mponga,
+
     github,
     github_black,
     linkedin,
@@ -114,10 +116,6 @@ import {
     {
       name: "Next.js",
       icon: nextjs,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
     },
     {
       name: "Tensorflow",
@@ -223,7 +221,7 @@ import {
       name: "Mauricio Ponga",
       designation: "Associate Professor",
       company: "UBC",
-      image: "https://mech.ubc.ca/mauricio-ponga/files/2020/02/2017-07-10-Mauricio-Ponga-004-scaled-e1581097853586.jpg",
+      image: mponga,
       link: "https://www.linkedin.com/feed/update/urn:li:activity:7123133825777373186/",
     },
   ];
