@@ -9,6 +9,8 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const ProjectCard = ({
   index,
   name,
@@ -29,9 +31,8 @@ const ProjectCard = ({
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
-          <img
-            src={image}
-            alt={name}
+          <LazyLoadImage src={image}
+            width={600} height={400}
             className="w-full h-full object-cover rounded-2xl"
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -93,8 +94,8 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           The showcased projects highlight my expertise in machine learning and algorithm development.
-           Included are links to code repositories and text documents,
-            providing insight into a diverse range of technology-focused projects.
+          Included are links to code repositories and text documents,
+          providing insight into a diverse range of technology-focused projects.
         </motion.p>
       </div>
 
