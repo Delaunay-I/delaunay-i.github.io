@@ -21,13 +21,13 @@ const Tech = () => {
 
       <div className="mt-16 flex flex-wrap gap-12">
         {technologies.map((technology) => (
-          <div className="block-container w-28 h-28" key={technology.name}>
+          <div className="block-container w-16 h-16 sm:w-28 sm:h-28" key={technology.name}>
             <div className="btn-back rounded-xl" />
             <div className="btn-front rounded-xl flex justify-center items-center">
               <LazyLoadImage src={technology.icon}
-                width={70} height={70}
+                width={45} height={45}
                 alt={technology.name}
-                className="object-contain"
+                className="sm:w-20 sm:h-20 object-contain"
               />
             </div>
           </div>
