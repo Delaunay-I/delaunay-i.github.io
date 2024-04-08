@@ -155,10 +155,10 @@ import {
       name: "Jenkins",
       icon: jenkins,
     },
-    {
-      name: "Linux",
-      icon: linux,
-    },
+    // {
+    //   name: "Linux",
+    //   icon: linux,
+    // },
     // {
     //   name: "MakeFile",
     //   icon: makefile,

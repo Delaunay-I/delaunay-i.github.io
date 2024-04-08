@@ -2,6 +2,8 @@
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 import { styles } from "../styles";
 
 const Tech = () => {
@@ -22,11 +24,16 @@ const Tech = () => {
           <div className="block-container w-20 h-20" key={technology.name}>
             <div className="btn-back rounded-xl" />
             <div className="btn-front rounded-xl flex justify-center items-center">
-              <img
+            <LazyLoadImage src={technology.icon}
+            width={600} height={400}
+            alt={technology.name}
+            className=""
+          />
+              {/* <img
                 src={technology.icon}
                 alt={technology.name}
                 className="w-1/2 h-1/2 object-contain"
-              />
+              /> */}
             </div>
           </div>
         ))}
