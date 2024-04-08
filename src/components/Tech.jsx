@@ -1,4 +1,4 @@
-import { BallCanvas } from "./canvas";
+// import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 
@@ -8,16 +8,16 @@ const Tech = () => {
   return (
     <div className="py-10 flex flex-col">
       <h3 className={styles.sectionHeadText}>My Skills</h3>
-
+{/* 
       <div className="mt-16 flex flex-row flex-wrap justify-center gap-10">
         {technologies.map((technology) => (
           <div className="w-28 h-28" key={technology.name}>
             <BallCanvas icon={technology.icon} />
           </div>
         ))}
-      </div>
+      </div> */}
 
-      {/* <div className="mt-16 flex flex-wrap gap-12">
+      <div className="mt-16 flex flex-wrap gap-12">
         {technologies.map((technology) => (
           <div className="block-container w-20 h-20" key={technology.name}>
             <div className="btn-back rounded-xl" />
@@ -30,7 +30,7 @@ const Tech = () => {
             </div>
           </div>
         ))}
-      </div> */}
+      </div>
 
 
     </div>
