@@ -10,7 +10,7 @@ const Tech = () => {
   return (
     <div className="py-10 flex flex-col">
       <h3 className={styles.sectionHeadText}>My Skills</h3>
-{/* 
+      {/* 
       <div className="mt-16 flex flex-row flex-wrap justify-center gap-10">
         {technologies.map((technology) => (
           <div className="w-28 h-28" key={technology.name}>
@@ -24,16 +24,11 @@ const Tech = () => {
           <div className="block-container w-20 h-20" key={technology.name}>
             <div className="btn-back rounded-xl" />
             <div className="btn-front rounded-xl flex justify-center items-center">
-            <LazyLoadImage src={technology.icon}
-            width={600} height={400}
-            alt={technology.name}
-            className=""
-          />
-              {/* <img
-                src={technology.icon}
+              <LazyLoadImage src={technology.icon}
+                width={50} height={50}
                 alt={technology.name}
-                className="w-1/2 h-1/2 object-contain"
-              /> */}
+                className=""
+              />
             </div>
           </div>
         ))}
