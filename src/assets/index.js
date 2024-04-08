@@ -1,8 +1,8 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import creator from "./creator.webp";
+import mobile from "./mobile.webp";
+import web from "./web.webp";
 import github from "./github.png";
 import github_black from "./github_black.png";
 
@@ -16,7 +16,7 @@ import car from './car.svg';
 import threads from './threads.svg';
 import arrow from './arrow.svg';
 import contact from './email.png';
-import docs from './docs.png';
+import docs from './docs.webp';
 
 
 import css from "./tech/css.png";
@@ -40,7 +40,7 @@ import tesla from "./company/tesla.png";
 
 import imagecapgen_tf from "./imagecapgen_tf.webp";
 import memories_project from "./memories_project.webp";
-import dmd_acc from "./dmd_acc.png";
+import dmd_acc from "./dmd_acc.avif";
 
 import cpp from "./tech/cpp.svg";
 import python from "./tech/python.png";
@@ -50,13 +50,13 @@ import tensorflow from './tech/tensorflow.png';
 import julia from './tech/julia.png';
 import sklearn from './tech/sklearn.png';
 import matlab from './tech/matlab.png';
-import jenkins from './tech/jenkins.png';
+import jenkins from './tech/jenkins.webp';
 import makefile from './tech/makefile.png';
 import nextjs from './tech/next-js.png';
 
 
 import ansys from './company/ansys.png';
-import ubc from './company/ubc.png';
+import ubc from './company/ubc.webp';
 
 import mponga from './testimonials/m_ponga.webp';
 
